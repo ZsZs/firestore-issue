@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "run-firebase-emulator": "cd apps/firestore-issue && firebase emulators:start --import ./data",
-    "serve-firestore-issue": "nx run firestore-issue:serve"
+    "serve-firestore-issue": "nx run firestore-issue:serve",
+    "run-failing-test": "jest apps/firestore-issue/src/app/nx-wellcome.component.spec.ts"
   },
   "private": true,
   "dependencies": {
